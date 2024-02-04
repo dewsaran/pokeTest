@@ -6,6 +6,7 @@
       src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
     >
     <h1>Pokedex</h1>
+    
     <pokemonlist :image-url="imageUrl" :api-url="apiUrl" @setPokemonUrl="setPokemonUrl"/>
     <pokemondetail
       v-if="showDetail"

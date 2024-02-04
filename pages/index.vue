@@ -4,6 +4,7 @@
     <div class="main-wrap">
       <div class="container">
         <div>
+        ljkjlkjlkjlj
           <v-carousel>
             <v-carousel-item
               v-for="(item, i) in items"

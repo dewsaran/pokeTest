@@ -2,7 +2,7 @@
   <div class="toolbar">
     <v-app-bar color="white">
       <div class="header-container">
-        <a href="/" align="center">Pokedex</a>
+        <a href="/" align="center">PokedexTest</a>
         <a href="/" class="btn-home">Home</a>
         <div class="spacer"></div>
         <v-btn href="/login" outlined style="color: white" class="btnlogin"

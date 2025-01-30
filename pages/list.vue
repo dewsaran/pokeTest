@@ -726,8 +726,10 @@
 </template>
 
 <script>
+// import { useTelegram } from 'vue-tg';
 export default {
   data: () => ({
+    user: null,
     dialog1: false,
     dialog2: false,
     dialog3: false,
@@ -837,6 +839,11 @@ export default {
     this.callpoke1()
     this.callpoke2()
     this.callpoke3()
+    if (typeof window !== 'undefined' && this.$telegram?.WebApp) {
+      const WebApp = this.$telegram.WebApp;
+      this.user = WebApp.initDataUnsafe?.user || {}; // ดึงข้อมูลผู้ใช้
+      WebApp.expand(); // ขยาย Web App ให้เต็มจอ
+    }
   },
 
   methods: {

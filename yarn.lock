@@ -1891,6 +1891,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.12.tgz#bc2cab12e87978eee89fb21576b670350d6d86ab"
   integrity sha512-bTHG8fcxEqv1M9+TD14P8ok8hjxoOCkfKc8XXLaaD05kI7ohpeI956jtDOD3XHKBQrlyPughUtzm1jtVhHpA5Q==
 
+"@types/telegram-web-app@^7":
+  version "7.10.1"
+  resolved "https://registry.yarnpkg.com/@types/telegram-web-app/-/telegram-web-app-7.10.1.tgz#7e5730328d1b96adf239504a60727549343f8d25"
+  integrity sha512-GKL659G6lnHRAt3Dt7L1Fa0dwvc+ZZQtJcYrJVJGwjvsbi/Rcp1qKs9pFwb34/KC04+J+TlQj4D7yKo10sBSEw==
+
 "@types/uglify-js@*":
   version "3.17.4"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.17.4.tgz#3c70021f08023e5a760ce133d22966f200e1d31c"
@@ -9191,6 +9196,13 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
+
+vue-tg@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/vue-tg/-/vue-tg-0.8.0.tgz#6add75333b1431725bb111732f45cb69780d5e4b"
+  integrity sha512-0DwRLrxtoOn7iCuEx0+GDHy5vSJPgbqJrEpE8QgRTJbLFI6ogP9jzG58pS8gXbntb3rqqWepxGwUJMn95MqP1g==
+  dependencies:
+    "@types/telegram-web-app" "^7"
 
 vue@^2.7.10, vue@^2.7.16:
   version "2.7.16"

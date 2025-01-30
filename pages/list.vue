@@ -24,7 +24,7 @@
             value="btn1"
             :class="{ active: activebtn === 'btn1' }"
             @click="activebtn = 'btn1'"
-            >Pokemon FireRed/LeafGreen</v-btn
+            >Pokemon FireRed/LeafGreen {{ user?.first_name }}</v-btn
           >
           <v-btn
             class="btn"
